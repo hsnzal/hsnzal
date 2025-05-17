@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تثبيت تطبيق متجر حسن الزعال</title>
+  <link rel="icon" href="icon-512.png" type="image/png">
+  <link rel="apple-touch-icon" href="icon-512.png">
+  <link rel="apple-touch-startup-image" href="splash.png">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* تحسين قابلية القراءة باستخدام خطوط ويب مناسبة */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to bottom, #ffffff, #e0f7fa);
+      font-family: 'Tajawal', sans-serif;
+    }
+    .install-button {
+      font-size: 22px;
+      padding: 14px 28px;
+      background-color: #00cc99;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+      /* يمكن إضافة تأثير عند التركيز لتحسين إمكانية الوصول */
+    }
+    .install-button:hover {
+      background-color: #009977;
+    }
+  </style>
+</head>
+<body>
+  <a class="install-button" href="itms-services://?action=download-manifest&url=https://hassanstore.com/manifest.plist">
+    📲 تثبيت تطبيق متجر حسن الزعال
+  </a>
+</body>
+</html>
